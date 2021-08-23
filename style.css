@@ -40,6 +40,7 @@ h2 {
 }
 
 p {
+  font-family: "Lexend Deca";
   color: var(--clr-paragraphs);
   font-size: 1.1rem;
   margin-bottom: 1.8rem;
@@ -63,7 +64,8 @@ button {
 
 .card {
   padding: 4.5em;
-  margin: 0em 2em 0 2em;
+  margin: 0 auto;
+  max-width: 50%;
 }
 
 .card-1 {
@@ -102,20 +104,19 @@ button {
 
   .cards {
     display: flex;
-
     /* margin: 2em 2em 2em 2em; */
     padding: 10em 15em 10em 15em;
   }
 
   .card {
     padding: 4.5em;
-    margin: 0 0 0 0;
+    margin: 0 auto;
   }
 
   .card-1 {
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px 0 0 5px;
   }
   .card-3 {
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 5px 5px 0;
   }
 }
